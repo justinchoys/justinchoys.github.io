@@ -1,0 +1,151 @@
+body {
+/*  background-color: #C6CCDC;*/
+  font-family: Arimo;
+  font-weight: 300;
+  font-size 16px;
+
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  /*  border: 5px solid black;*/
+}
+
+/*Titles*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arimo";
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;  
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3{
+  font-size: 16px;
+}
+
+/*Navigation*/
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #C6CCDC;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 900px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*Paragraph % Typographic*/
+#about-me{
+  line-height: 1.5;
+}
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+
+}
+
+
+.back-to-top {
+  font-size: 12px;
+  text-align: right;
+
+}
+
+.pagebreak {
+  padding: 0;
+
+}
+
+
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+/*Tables*/
+th {
+  border: 2px solid #8c6b48;
+}
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+
+/*Dessert Images*/
+
+figure img {
+  padding-top: 0px;
+  padding-bottom: 25px
+}
+
+figcaption{
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  padding: 0;
+}
+
+img {
+  width: 600px;
+  padding: 20px 0;
+  align-items: left;
+  margin: 0 auto;
+  display: block;
+}
+/*Other Images*/
+#logo{
+  height: 200px;
+  width: 200px;
+  padding: 20px 0;
+  align-items: left;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*Remaining*/
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
+  
+}
+
+
